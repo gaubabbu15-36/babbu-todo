@@ -1,0 +1,15 @@
+{
+  "name": "Babbu To-Do",
+  "short_name": "Babbu",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fbc2eb",
+  "theme_color": "#fbc2eb",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

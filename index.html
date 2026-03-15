@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Babbu To-Do ✔️</title>
+    <link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Babbu To-Do ✔️</h1>
+        <div class="glass-box">
+            <div>Cấp <span id="level">1</span></div>
+            <div style="font-size: 3rem;">🦊</div>
+            <p>Điểm L: <span id="exp">0</span> / 100</p>
+        </div>
+        
+        <div class="glass-box" style="margin-top: 15px;">
+            <input type="text" id="taskInput" placeholder="Thêm việc cần làm...">
+            <button onclick="addTask()">Thêm</button>
+            <ul id="taskList"></ul>
+            <p>Điểm P: <span id="pointsP">0</span></p>
+            <button onclick="takeBreak()">Nghỉ 🍵</button>
+            <button onclick="feed('carrot')">Cà rốt 🥕</button>
+            <button onclick="feed('sausage')">Xúc xích 🌭</button>
+            <button onclick="resetApp()">Đặt lại ↩️</button>
+            <div id="timer-display">00:00</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
